@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WebエンジニアあめのこのPORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section id="intro">
+      <div class="container spe-font">
+        <h4>Webエンジニア <span class="spe-color">あめのこ</span> の</h4>
+        <h1>PORTFOLIO</h1>
+      </div>
+    </section>
+    <section id="menu">
+      <div class="container-fluid spe-font spe-color">
+        <ul>
+          <li href="#profile">Profile</li>
+          <li href="#skill">Skill</li>
+          <li href="#works">Works</li>
+          <li href="#contact">Contact</li>
+        </ul>
+      </div>
+    </section>
+    <div class="container">
+      <section id="profile">
+        <h1 class="title">Profile</h1>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="img col-md-4">
+              <div>
+                <img src="img/profile.png" alt="">
+              </div>
+            </div>
+            <div class="text col-md-8">
+              <p>
+                初めまして。あめのこと申します。現役理系大学生です。
+                大学在学中にWeb業界で活躍できる人材になりたいと思い、プログラミングを勉強。
+                現在は複数のオリジナルアプリを製作できるようになりました。
+                プログラミング歴は１年です。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skill">
+        <h1 class="title">Skill</h1>
+        <p>使用経験のあるスキルは以下の通りです</p>
+        <div>
+          <div>
+            <h4>言語</h4>
+            <p><span>・・・</span>HTML, CSS, JavaScript, PHP, SQL</p>
+          </div>
+          <div>
+            <h4>フレームワーク、ライブラリ</h4>
+            <p><span>・・・</span>jQuery, Laravel, Bootstrap</p>
+          </div>
+          <div>
+            <h4>ツール</h4>
+            <p><span>・・・</span>GIt, VirtualBox, Vagrant</p>
+          </div>
+        </div>
+      </section>
+      <section id="works">
+        <h1 class="title">Works</h1>
+        <p>これまでの成果物を以下に記載しました</p>
+        <div class="work container-fluid">
+          <div class="row">
+            <div class="img col-md-4">
+              <div>
+                <img src="img/weather_app.png" style="top: 60%;">
+              </div>
+            </div>
+            <div class="detail col-md-8">
+              <h3>お天気通知アプリ</h3>
+              <p>
+                特定の地域の明日の天気と最大・最低気温を通知します。
+                Weather Hacks APIで天気の情報を取得し、Slack Webhook APIで通知機能を実装しました。
+              </p>
+              <p>PHP/Laravel/Slack</p>
+              <p><a href="https://github.com/TohruNoInk/Weather_Application" target="_blank">GitHub</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="work container-fluid">
+          <div class="row">
+            <div class="img col-md-4">
+              <div>
+                <img src="img/mysns.png" style="top: 40%;">
+              </div>
+            </div>
+            <div class="detail col-md-8">
+              <h3>メッセージ投稿アプリ</h3>
+              <p>
+                メッセージの投稿、変更、削除などが行えます。ログイン機能を実装しています。
+                同期処理の「いいね!」ボタンも実装しています。
+              </p>
+              <p>HTML/CSS/PHP/Laravel/SQLite</p>
+              <p><a href="https://github.com/TohruNoInk/MySNS" target="_blank">GitHub</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="work container-fluid">
+          <div class="row">
+            <div class="img col-md-4">
+              <div>
+                <img src="img/like_btn.png" style="top: 40%;">
+              </div>
+            </div>
+            <div class="detail col-md-8">
+              <h3>「いいね!」ボタン(非同期処理)</h3>
+              <p>
+                Ajaxの非同期処理を用いて「いいね!」ボタンを実装しました。
+                ユーザー毎に「いいね!」ボタンを押したか記録しています。
+              </p>
+              <p>HTML/CSS/JavaScript/jQuery/PHP/MySQL</p>
+              <p><a href="https://github.com/TohruNoInk/Like_btn" target="_blank">GitHub</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1 class="title">Contact</h1>
+        <p>何かご連絡がありましたらTwitterのDMからお願いします。</p>
+        <div id="twitter">
+          <a href="https://twitter.com/amenokotech" target="_blank">
+            <img src="img/profile.png">
+            <p>Twitter</p>
+          </a>
+        </div>
+      </section>
+    </div>
+    <section id="footer">
+      <div class="container-fluid">
+        <ul class="spe-font">
+          <li href="#profile">Profile</li>
+          <li href="#skill">Skill</li>
+          <li href="#works">Works</li>
+          <li href="#contact">Contact</li>
+        </ul>
+      </div>
+      <p>© 2019 Amenoko.</p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
